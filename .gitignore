@@ -1,0 +1,30 @@
+# --- Data Files (CRITICAL) ---
+# Ignore the data folder and all CSVs so you don't push massive datasets to GitHub
+data/
+*.csv
+*.tsv
+*.zip
+
+# --- Python ---
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Ignore your virtual environment folders (everyone installs their own)
+venv/
+env/
+.venv/
+.env
+
+# --- Jupyter Notebooks (if you use them later) ---
+.ipynb_checkpoints/
+
+# --- OS & Editor Files ---
+# Mac hidden files
+.DS_Store
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
